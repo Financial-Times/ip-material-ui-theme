@@ -4,7 +4,7 @@ import Button from 'material-ui/Button';
 class Buttons extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="buttons">
         <Button>
           Root design
         </Button>
