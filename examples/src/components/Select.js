@@ -17,7 +17,7 @@ class SelectExample extends Component {
     })
 
     return (
-      <div className="buttons">
+      <div className="select">
         <MaterialSelect
           aria-label="status"
           name="status"

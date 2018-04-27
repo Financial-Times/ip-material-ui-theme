@@ -5,6 +5,7 @@ import MuiButton from './src/components/Button'
 import MuiSwitch from './src/components/Switch'
 import MuiList from './src/components/List'
 import MuiMenuItem from './src/components/MenuItem'
+import MuiRadio from './src/components/Radio'
 
 export default {
   typography,
@@ -13,6 +14,7 @@ export default {
     MuiButton,
     MuiSwitch,
     MuiList ,
-    MuiMenuItem
+    MuiMenuItem,
+    MuiRadio
   }
 }

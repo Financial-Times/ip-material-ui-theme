@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Checkbox from 'material-ui/Checkbox';
+import Radio from 'material-ui/Radio';
 
-class CheckboxExample extends Component {
+class RadioExample extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,27 +18,33 @@ class CheckboxExample extends Component {
 
   render() {
     return (
-      <div className="checkbox">
-        <Checkbox
+      <div className="radio">
+        <Radio
           checked={this.state.checked}
-          value="checkedA"
           onChange={this.handleChange}
+          value="a"
+          name="radio-button-demo"
+          aria-label="A"
         />
-        <Checkbox
+        <Radio
           checked={this.state.checked}
-          value="checkedB"
+          onChange={this.handleChange}
+          value="a"
+          name="radio-button-demo"
+          aria-label="A"
           color="primary"
-          onChange={this.handleChange}
         />
-        <Checkbox
+        <Radio
           checked={this.state.checked}
-          value="checkedC"
-          color="secondary"
           onChange={this.handleChange}
+          value="a"
+          name="radio-button-demo"
+          aria-label="A"
+          color="secondary"
         />
       </div>
     );
   }
 }
 
-export default CheckboxExample;
+export default RadioExample;
