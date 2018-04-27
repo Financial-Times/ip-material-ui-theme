@@ -3,7 +3,7 @@ import Switch from 'material-ui/Switch';
 
 class SwitchExample extends Component {
   constructor(props) {
-  super(props);
+    super(props);
     this.state = {
       checked: false
     }
@@ -20,6 +20,15 @@ class SwitchExample extends Component {
       <div className="switch">
         <Switch checked={this.state.checked}
           onChange={this.handleChange}
+          color="default"
+        />
+        <Switch checked={this.state.checked}
+          onChange={this.handleChange}
+          color="primary"
+        />
+        <Switch checked={this.state.checked}
+          onChange={this.handleChange}
+          color="secondary"
         />
         <Switch disabled
           checked={true}

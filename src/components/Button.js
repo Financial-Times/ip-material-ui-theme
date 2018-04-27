@@ -35,7 +35,7 @@ export default {
     }
   },
   flatSecondary: {
-    border: `1px solid #FFFFFF`,
+    border: `1px solid rgb(37,40,48)`,
     color: '#FFFFFF',
     backgroundColor: 'rgb(37,40,48)',
     '&$disabled': {

@@ -5,13 +5,17 @@ class Buttons extends Component {
   render() {
     return (
       <div className="buttons">
-        <Button>
+        <Button style={{marginLeft:'5px'}}>
           Root design
         </Button>
-        <Button color="primary">
+        <Button color="primary"
+          style={{marginLeft:'5px'}}
+        >
           Primary design
         </Button>
-        <Button color="secondary">
+        <Button color="secondary"
+          style={{marginLeft:'5px'}}
+        >
           Secondary design
         </Button>
       </div>
