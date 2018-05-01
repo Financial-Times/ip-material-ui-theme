@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^1.1.0"
+  },
+  "devDependencies": {
+    "@financial-times/secret-squirrel": "^2.8.0",
+    "husky": "^0.14.3"
   }
 }
