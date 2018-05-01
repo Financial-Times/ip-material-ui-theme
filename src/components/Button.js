@@ -19,18 +19,19 @@ export default {
     }
   },
   flatPrimary: {
-    border: `1px solid rgb(38,42,51)`,
-    color: 'rgb(38,42,51)',
-    backgroundColor: '#FFFFFF',
+    border: `1px solid rgba(13,118,128,1)`,
+    color: '#FFFFFF',
+    backgroundColor: 'rgba(13,118,128,1)',
     '&$disabled': {
-      border: `1px solid rgba(38,42,51,.4)`,
-      color: `rgba(38,42,51,.4)`
+      border: `1px solid rgba(13,118,128,.4)`,
+      color: `rgba(13,118,128,.4)`
     },
     '&:hover': {
-      backgroundColor: 'rgba(38,42,51,.1)'
+      color: 'rgba(13,118,128,1)',
+      backgroundColor: 'rgba(13,118,128,.1)'
     },
     '&:active': {
-      background: `rgba(38,42,51,1)`,
+      background: `rgba(13,118,128,1)`,
       color: `white`
     }
   },

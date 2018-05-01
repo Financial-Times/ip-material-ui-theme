@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Checkbox from 'material-ui/Checkbox';
 import Radio from 'material-ui/Radio';
 
 class RadioExample extends Component {
