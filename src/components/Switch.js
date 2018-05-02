@@ -1,11 +1,11 @@
 export default {
   bar : {
-    border: `1px solid rgba(13,118,128,1)`,
+    border: '1px solid rgba(13,118,128,1)',
     backgroundColor: 'white',
     opacity: 1
   },
   icon : {
-    border: `1px solid #0D7680`,
+    border: '1px solid #0D7680',
     backgroundColor: '#FFFFFF'
   },
   iconChecked: {
