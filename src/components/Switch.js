@@ -14,24 +14,24 @@ export default {
   checked: {
     '& + $bar': {
       backgroundColor: 'rgba(13,118,128,1)'
-    },
+    }
   },
   colorPrimary: {
     '& + $bar': {
-      borderColor: 'rgba(37,40,48, 1)',
+      borderColor: 'rgba(37,40,48, 1)'
     },
     '& $icon': {
-      borderColor: 'rgba(37,40,48, 1)',
+      borderColor: 'rgba(37,40,48, 1)'
     },
     '&$checked': {
       color: 'rgba(37,40,48, 1)',
       '& + $bar': {
-        backgroundColor: 'rgba(37,40,48, 1)',
+        backgroundColor: 'rgba(37,40,48, 1)'
       },
       '& $icon': {
-        backgroundColor: 'rgba(37,40,48, 1)',
-      },
-    },
+        backgroundColor: 'rgba(37,40,48, 1)'
+      }
+    }
   },
   colorSecondary: {
     '& + $bar': {
@@ -44,19 +44,19 @@ export default {
     '&$checked': {
       color: 'rgba(37,40,48, 1)',
       '& + $bar': {
-        backgroundColor: 'rgba(37,40,48, 1)',
+        backgroundColor: 'rgba(37,40,48, 1)'
       },
       '& $icon': {
-        backgroundColor: 'rgba(37,40,48, 1)',
-      },
+        backgroundColor: 'rgba(37,40,48, 1)'
+      }
     },
   },
   disabled: {
     '& + $bar': {
-      opacity: 0.1,
+      opacity: 0.1
     },
     '& $icon': {
-      opacity: 0.7,
+      opacity: 0.7
     },
   }
 }
