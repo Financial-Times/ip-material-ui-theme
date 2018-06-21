@@ -1,11 +1,14 @@
 export default {
   root: {
-    border: '1px solid #0D7680',
-    borderRadius: '0px',
-    color: '#0D7680',
-    backgroundColor: '#FFFFFF',
     padding: '5px 5px',
     textTransform: 'none',
+    borderRadius: '0px'
+  },
+  contained: {
+    border: '1px solid #0D7680',
+    color: '#0D7680',
+    backgroundColor: '#FFFFFF',
+    boxShadow: 'none',
     '&$disabled': {
       border: '1px solid rgba(13,118,128,.4)',
       color: 'rgba(13,118,128,.4)'
@@ -18,7 +21,7 @@ export default {
       color: 'white'
     }
   },
-  flatPrimary: {
+  containedPrimary: {
     border: '1px solid rgba(13,118,128,1)',
     color: '#FFFFFF',
     backgroundColor: 'rgba(13,118,128,1)',
@@ -35,7 +38,7 @@ export default {
       color: 'white'
     }
   },
-  flatSecondary: {
+  containedSecondary: {
     border: '1px solid rgb(38,42,51)',
     color: 'rgb(38,42,51)',
     backgroundColor: '#FFFFFF',
