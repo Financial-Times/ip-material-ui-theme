@@ -13,7 +13,8 @@ export default {
   },
   checked: {
     '& + $bar': {
-      backgroundColor: 'rgba(13,118,128,1)'
+      backgroundColor: 'rgba(13,118,128,0.4)',
+      opacity: 1
     }
   },
   colorPrimary: {
@@ -26,7 +27,8 @@ export default {
     '&$checked': {
       color: 'rgba(37,40,48, 1)',
       '& + $bar': {
-        backgroundColor: 'rgba(37,40,48, 1)'
+        backgroundColor: 'rgba(37,40,48, 0.4)',
+        opacity: 1
       },
       '& $icon': {
         backgroundColor: 'rgba(37,40,48, 1)'
@@ -44,7 +46,8 @@ export default {
     '&$checked': {
       color: 'rgba(37,40,48, 1)',
       '& + $bar': {
-        backgroundColor: 'rgba(37,40,48, 1)'
+        backgroundColor: 'rgba(37,40,48, 0.4)',
+        opacity: 1
       },
       '& $icon': {
         backgroundColor: 'rgba(37,40,48, 1)'

@@ -9,6 +9,7 @@ import MuiRadio from './src/components/Radio'
 import MuiInput from './src/components/Input'
 import MuiInputLabel from './src/components/InputLabel'
 import MuiTooltip from './src/components/Tooltip'
+import MuiSelect from './src/components/Select'
 
 export default {
   typography,
@@ -21,6 +22,7 @@ export default {
     MuiRadio,
     MuiInput,
     MuiInputLabel,
-    MuiTooltip
+    MuiTooltip,
+    MuiSelect
   }
 }
