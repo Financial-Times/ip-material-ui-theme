@@ -10,6 +10,7 @@ import MuiInput from './src/components/Input'
 import MuiInputLabel from './src/components/InputLabel'
 import MuiTooltip from './src/components/Tooltip'
 import MuiSelect from './src/components/Select'
+import MuiTable from './src/components/TableRow'
 
 export default {
   typography,
@@ -23,6 +24,7 @@ export default {
     MuiInput,
     MuiInputLabel,
     MuiTooltip,
-    MuiSelect
+    MuiSelect,
+    MuiTable
   }
 }
