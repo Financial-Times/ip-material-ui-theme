@@ -12,7 +12,7 @@ export default {
     padding: '25px 6px 7px 6px'
   },
   'input' : {
-    border: '1px solid #ccc',
+    border: '1px solid #A8AAAD',
     '&:focus': {
       border: '1px solid #00EAFF'
     },
