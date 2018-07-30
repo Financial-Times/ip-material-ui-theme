@@ -1,19 +1,23 @@
 export default {
   root: {
     width: 176,
-    backgroundColor: 'rgba(37,40,48, 1)',
-    borderBottom: '1px solid #FFFFFF',
-    color: '#FFFFFF',
+    backgroundColor: '#e9e9ea',
+    borderBottom: '1px solid #A8AAAD',
+    color: '#262A33', // Standard slate colour
     boxSizing: 'border-box',
     justifyContent: 'left',
-    paddingLeft: 5,
-    paddingRight: 5,
-    padding: 22,
+    paddingLeft: 10,
+    paddingRight: 10,
+    fontSize : 17,
+    fontWeight: 500,
+    padding: 19.5,
     '&$selected': {
-      backgroundColor: 'rgba(37,40,48,.8)'
+      color: '#262A33',
+      backgroundColor: '#e9e9ea',
     },
     '&:hover': {
-      backgroundColor: 'rgba(37,40,48,.8)'
+      color: 'white',
+      backgroundColor: '#262A33' // Standard slate colour
     },
     '&:last-child': {
       borderBottom: 'none'
