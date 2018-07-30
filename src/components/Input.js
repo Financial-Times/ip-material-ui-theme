@@ -9,11 +9,13 @@ export default {
   },
   root: {
     marginTop: '0',
-    padding: '25px 6px 7px 6px',
-    '&$focused': {
-      padding: '24px 5px 6px 5px',
+    padding: '25px 6px 7px 6px'
+  },
+  'input' : {
+    border: '1px solid #ccc',
+    '&:focus': {
       border: '1px solid #00EAFF'
-    }
+    },
   },
   underline: {
     '&:before': {
