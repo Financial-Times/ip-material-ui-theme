@@ -1,6 +1,9 @@
 export default {
-  root : {
-    border: '1px solid #ccc',
-    paddingLeft: '7px'
+  root: {
+    fontSize : 17,
+    fontWeight: 500,
+    color: '#262A33',
+    border: '1px solid #A8AAAD',
+    paddingLeft: '10px'
   }
 }
