@@ -11,7 +11,8 @@ export default {
     boxShadow: 'none',
     '&$disabled': {
       border: '1px solid rgba(13,118,128,.4)',
-      color: 'rgba(13,118,128,.4)'
+      color: 'rgba(13,118,128,.4)',
+      backgroundColor: 'rgba(255,255,255,.4)'
     },
     '&:hover': {
       backgroundColor: 'rgba(13,118,128,.1)'
@@ -26,16 +27,17 @@ export default {
     color: '#FFFFFF',
     backgroundColor: 'rgba(13,118,128,1)',
     '&$disabled': {
-      border: '1px solid rgba(13,118,128,.4)',
-      color: 'rgba(13,118,128,.4)'
+      border: '1px solid rgba(13,118,128,.1)',
+      backgroundColor: 'rgba(13,118,128,.4)',
+      color: '#FFFFFF',
     },
     '&:hover': {
-      color: 'rgba(13,118,128,1)',
-      backgroundColor: 'rgba(13,118,128,.1)'
+      backgroundColor: 'rgba(38, 93, 100, 1)',
+      border: '1px solid rgba(38,93,100,1)',
     },
     '&:active': {
-      background: 'rgba(13,118,128,1)',
-      color: 'white'
+      background: 'rgba(26, 69, 76, 1)',
+      border: '1px solid rgba(26,69,76,1)',
     }
   },
   containedSecondary: {
