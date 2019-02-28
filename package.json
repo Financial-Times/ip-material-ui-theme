@@ -11,7 +11,13 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@financial-times/secret-squirrel": "^2.8.0",
+    "@financial-times/secret-squirrel": "^2.12.0",
     "husky": "^0.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "secret-squirrel-commitmsg",
+      "pre-commit": "secret-squirrel"
+    }
   }
 }
