@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "snyk protect"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.143.3"
+  },
   "devDependencies": {
-    "@financial-times/secret-squirrel": "^2.12.0",
+    "@financial-times/secret-squirrel": "^2.12.3",
     "husky": "^0.14.3"
   },
   "husky": {
