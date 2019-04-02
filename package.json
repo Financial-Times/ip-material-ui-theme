@@ -6,13 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "snyk protect"
-
-  },
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "snyk": "^1.143.3"
+    "snyk": "^1.143.3", 
+    "@financial-times/n-logger": "^6.1.0"
+
   },
   "devDependencies": {
     "@financial-times/secret-squirrel": "^2.12.3",
